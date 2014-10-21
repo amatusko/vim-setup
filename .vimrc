@@ -6,7 +6,7 @@ call pathogen#infect('/home/quickstart/.drush/vimrc/bundle/{}')
 "call pathogen#infect('/home/quickstart/.vim/bundle')
 call pathogen#infect('/home/quickstart/.vim/bundle/{}')
 " Enable NerdTree and Load Automatically
-autocmd vimenter * NERDTree
+" autocmd vimenter * NERDTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 " Toggle NERDTree
@@ -56,6 +56,8 @@ set t_Co=256
 
 " I prefer koheler, murphy but setting to slate so I don't mistake dev for prod with both windows open
 colorscheme elflord
+
+filetype plugin on
 
 " From http://statico.github.io/vim.html
 " Up and down keys go to wrapped section of line insted of skipping lines... Big annoyance!
