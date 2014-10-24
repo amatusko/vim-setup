@@ -17,6 +17,8 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 nnoremap <F5> :GundoToggle<CR>
 " airline
 let g:airline#extensions#tabline#enabled = 1
+" Neocompletecache
+let g:neocomplcache_enable_at_startup = 1
 
 " End of vimrc-install additions.
 
