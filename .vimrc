@@ -13,6 +13,11 @@ autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 map <C-n> :NERDTreeToggle<CR>
 " How can I close vim if the only window left open is a NERDTree?
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+" Gundo toggle undo tree
+nnoremap <F5> :GundoToggle<CR>
+" airline
+let g:airline#extensions#tabline#enabled = 1
+
 " End of vimrc-install additions.
 
 syn on
