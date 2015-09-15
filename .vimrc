@@ -1,3 +1,8 @@
+" Following lines added by drush vimrc-install on Wed, 21 Jan 2015 21:11:28 +0000.
+set nocompatible
+call pathogen#infect('/Users/amatusko/.drush/vimrc/bundle/{}')
+call pathogen#infect('/Users/amatusko/.vim/bundle/{}')
+" End of vimrc-install additions.
 execute pathogen#infect()
 " Following lines added by drush vimrc-install on Thu, 16 Oct 2014 18:39:34 +0000.
 set nocompatible

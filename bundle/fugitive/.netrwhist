@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/Users/amatusko/.ssh'
+let g:netrw_dirhist_2='/Users/amatusko/Code/api/f'
+let g:netrw_dirhist_3='/Users/amatusko/Downloads/geomap_3.1'
