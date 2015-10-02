@@ -80,4 +80,5 @@ set matchpairs+=<:>
 set confirm
 " Can't forget the colorscheme. Other good options are: ron, murphy, koehler, and lots of others.
 " You can see all the options if you enter :colorscheme <TAB> with the above configuration
+colorscheme elflord
 ```
