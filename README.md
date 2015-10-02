@@ -23,16 +23,17 @@ ln -s .vim/.vimrc .vimrc
 ## And now you should have all of the plugins installed in the ~/.vim/bundle folder, and the individual package files should have contents.
 
 ## The packages installed with this repo are:
-
+```
 dash.vim  
+fugitive  
 gundo   
-neocomplcache.vim  
+jslint  
+nerdcommenter
 nerdtree  
 syntastic  
-vim-airline
-fugitive  
-jslint  
-nerdcommenter      
-snipmate  
+--tlib_vim
+--vim-addon-mw-utils
 tagbar     
+vim-airline
 vim-fugitive
+```
