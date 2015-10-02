@@ -22,7 +22,7 @@ ln -s .vim/.vimrc .vimrc
 ## And now you should have all of the plugins installed in the ~/.vim/bundle folder, and the individual package files should have contents.
 
 ## Using Nerdtree
-### I have mapped "Ctrl+N to toggle nerdtree on and off. To get familiar with the commands, type :help NERDTree, or hit the ? character while in the tree.
+### I have mapped "Ctrl+N" in the .vimrc to toggle nerdtree on and off. To get familiar with the commands, type :help NERDTree, or hit the ? character while in the tree.
 
 ## The packages installed with this repo are:
 ```
