@@ -11,20 +11,18 @@ cd ~
 ```
 mkdir .vim
 ```
-## Now, clone the repo into the ~/.vim directory using --recursive
-## (this repo uses git submodules, so none of the packages will download without that flag)
+## Now, clone the repo into the ~/.vim directory using --recursive (this repo uses git submodules, so none of the packages will download without that flag)
 ```
 git clone --recursive https://amatusko@bitbucket.org/amatusko/vim-setup.git .vim/
 ```
-## Next, you need to symlink the .vimrc file to ~ from inside the ~/.vim directory (makes it easier for versioning)
+## Next, you need to symlink the .vimrc file to ~ from inside the ~/.vim directory to ~/.vimrc so it can be read by vim when you open it.
 ```
 ln -s .vim/.vimrc .vimrc
 ```
 ## And now you should have all of the plugins installed in the ~/.vim/bundle folder, and the individual package files should have contents.
 
 ## Using Nerdtree
-### I have mapped "Ctrl+N to toggle nerdtree on and off. To get familiar 
-### with the commands, type :help NERDTree, or hit the ? character while in the tree.
+### I have mapped "Ctrl+N to toggle nerdtree on and off. To get familiar with the commands, type :help NERDTree, or hit the ? character while in the tree.
 
 ## The packages installed with this repo are:
 ```
@@ -42,9 +40,7 @@ vim-airline
 vim-fugitive
 ```
 ## if you are looking for a simpler setup, add the following lines to your .vimrc file in your home ~/ directory:
-## These are basic settings that set defaults for your vim setup. 
-## Any of these lines can be entered while using vim by just preceding it
-## with a ":" (e.g. ":set nowrap" to remove line wrapping)
+## These are basic settings that set defaults for your vim setup. Any of these lines can be entered while using vim by just preceding it with a ":" (e.g. ":set nowrap" to remove line wrapping)
 ```
 syn on
 set ruler
