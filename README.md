@@ -44,7 +44,7 @@ vim-fugitive
 ## if you are looking for a simpler setup, add the following lines to your .vimrc file in your home ~/ directory:
 ## These are basic settings that set defaults for your vim setup. 
 ## Any of these lines can be entered while using vim by just preceding it
-## with a ":" (e.g. ":set nowrap" to remove line wrapping
+## with a ":" (e.g. ":set nowrap" to remove line wrapping)
 ```
 syn on
 set ruler
