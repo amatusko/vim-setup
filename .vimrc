@@ -43,6 +43,7 @@ set smartcase
 set scrolloff=2
 set wildmode=longest,list
 set nocompatible
+set noswapfile
 
 " display settings
 set background=dark
