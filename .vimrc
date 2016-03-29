@@ -1,5 +1,4 @@
 " Following lines added by drush vimrc-install on Wed, 21 Jan 2015 21:11:28 +0000.
-set nocompatible
 call pathogen#infect('~/.drush/vimrc/bundle/{}')
 call pathogen#infect('~/.vim/bundle/{}')
 " End of vimrc-install additions.
@@ -30,7 +29,7 @@ set shiftwidth=2
 set ai
 set hlsearch
 set incsearch
-" set textwidth=80
+set textwidth=80
 set autowrite
 set highlight=l:ErrorMsg
 set ignorecase
@@ -63,7 +62,7 @@ set confirm
 set t_Co=256
 
 " I prefer koheler, murphy but setting to slate so I don't mistake dev for prod with both windows open
-colorscheme elflord
+colorscheme zellner
 
 filetype plugin on
 
