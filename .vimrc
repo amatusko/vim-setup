@@ -26,7 +26,7 @@ set ruler
 set tabstop=2
 set expandtab
 set shiftwidth=2
-set ai
+" set ai
 set hlsearch
 set incsearch
 set textwidth=80
