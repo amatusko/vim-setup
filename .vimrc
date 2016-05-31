@@ -62,7 +62,7 @@ set confirm
 set t_Co=256
 
 " I prefer koheler, murphy but setting to slate so I don't mistake dev for prod with both windows open
-colorscheme zellner
+colorscheme murphy
 
 filetype plugin on
 
